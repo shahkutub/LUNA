@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/luna_bg">
+
+    <LinearLayout
+        android:id="@+id/proView"
+        android:layout_below="@+id/topPanel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical"
+        android:gravity="center"
+        >
+        <ImageView
+            android:id="@+id/imgProPicPro"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_centerInParent="true"
+            android:src="@drawable/logo" />
+        <TextView
+            android:id="@+id/tvPoNmae"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="JOHN DOE"
+            android:gravity="center_horizontal"
+            android:textStyle="bold"
+            android:textSize="14sp"
+            android:layout_marginTop="3dp"
+            />
+        <TextView
+            android:id="@+id/tvWorkTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="HOUSE CLEANING"
+            android:gravity="center_horizontal"
+            android:textColor="@color/white"
+            android:textSize="12sp"
+            android:layout_marginTop="3dp"
+            />
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:layout_marginTop="3dp"
+            >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/luna_working_details_location"
+                />
+
+            <TextView
+                android:id="@+id/tvProLocation"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Location"
+                android:gravity="center_horizontal"
+                android:layout_marginLeft="5dp"
+                android:textColor="@color/white"
+                android:textSize="15sp"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:layout_marginTop="3dp"
+            >
+
+
+
+
+            <TextView
+                android:id="@+id/tvProRate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Rate:"
+                android:gravity="center_horizontal"
+                android:layout_marginLeft="5dp"
+                android:textColor="@color/white"
+                android:textSize="15sp"
+                />
+
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="5dp"
+        >
+        <TextView
+            android:id="@+id/tvActiveWorkBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Active Work"
+            android:textSize="18sp"
+            android:gravity="center|center_vertical"
+            android:textColor="@color/com_facebook_likeboxcountview_text_color"
+            android:textStyle="bold"
+            android:background="@drawable/luna_work_history_barr"
+
+            />
+        <TextView
+            android:id="@+id/tvHistoryBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="History"
+            android:textSize="18sp"
+
+            android:gravity="center|center_vertical"
+            android:textColor="@color/com_facebook_likeboxcountview_text_color"
+            android:textStyle="bold"
+            android:background="@drawable/luna_work_history_bar"
+
+            />
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/listWorkHistory"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </ListView>
+
+</LinearLayout>

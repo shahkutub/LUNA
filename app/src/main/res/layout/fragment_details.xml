@@ -1,0 +1,76 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DetailsFragment">
+
+
+
+    <LinearLayout
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:baselineAligned="false">
+
+        <TextView
+            android:layout_marginLeft="8dp"
+            android:padding="8dp"
+            android:textSize="12sp"
+            android:id="@+id/textViewGasRari"
+            android:layout_width="0dp"
+            android:layout_height="68dp"
+            android:layout_weight="0.25"
+            android:background="@color/color_left"
+            android:gravity="right"
+            android:text="@string/Gas.Rari"
+            android:textColor="@android:color/white"
+            android:layout_gravity="bottom"/>
+
+        <TextView
+            android:layout_marginLeft="8dp"
+            android:padding="8dp"
+            android:textSize="12sp"
+            android:id="@+id/textViewMetali"
+            android:layout_width="0dp"
+            android:layout_height="68dp"
+            android:layout_weight="0.25"
+            android:background="@color/color_left2"
+            android:gravity="right"
+            android:text="@string/Metalli"
+            android:textColor="@android:color/white"
+            android:layout_gravity="bottom"/>
+
+
+        <TextView
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:padding="8dp"
+            android:id="@+id/textViewNonMetali"
+            android:layout_width="0dp"
+            android:layout_height="68dp"
+            android:layout_weight="0.25"
+            android:background="@color/color_left3"
+            android:gravity="right"
+            android:textSize="12sp"
+            android:text="@string/Non.Metalli"
+            android:textColor="@android:color/white"
+            android:layout_gravity="bottom"/>
+
+
+        <TextView
+            android:layout_marginRight="8dp"
+            android:padding="8dp"
+            android:layout_gravity="bottom"
+            android:id="@+id/textViewSemimetalli"
+            android:layout_width="0dp"
+            android:layout_height="68dp"
+            android:layout_weight="0.25"
+            android:background="@color/color_left4"
+            android:gravity="right"
+            android:textSize="12sp"
+            android:text="@string/Semimetalli"
+            android:textColor="@android:color/white" />
+
+    </LinearLayout>
+
+</RelativeLayout>

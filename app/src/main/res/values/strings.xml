@@ -1,0 +1,176 @@
+<resources>
+    <string name="app_name">LUNA</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="find_love">Find,connect &amp; share your love</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="login">Log In</string>
+    <string name="FacebookLogin">Facebook Login</string>
+    <string name="CreateAccount">Create Account</string>
+    <string name="forgetPassword">Forget your password?</string>
+    <string name="Fullname">FullName</string>
+    <string name="iAm">I am</string>
+    <string name="Male">Male</string>
+    <string name="Female">Female</string>
+    <string name="already_have_an_account">Already have an Account?Login</string>
+    <string name="RetrivePassword">Retrieve password</string>
+    <string name="AboutUs">About Us</string>
+    <string name="send_his_location">Send his location</string>
+    <string name="Replay">Replay</string>
+    <string name="interest">Interested in</string>
+    <string name="Men">Man</string>
+    <string name="Women">Woman</string>
+    <string name="both">Both</string>
+    <string name="searching_for">Searching for</string>
+    <string name="Lookingfor">Looking for</string>
+    <string name="Hidefromsearch">Hide from search</string>
+    <string name="DeleteAccount">Delete Account</string>
+    <string name="Block">Block</string>
+    <string name="SendMessage">Send Message</string>
+    <string name="chat">Chat</string>
+    <string name="message">Message</string>
+    <string name="Exit">Exit</string>
+    <string name="Sent">Send</string>
+    <string name="Stay">Stay</string>
+    <string name="Inbox">Inbox</string>
+    <string name="PersonalMessage">Personal Message</string>
+    <string name="connectingAndCommunication">Connection &amp; Communication</string>
+    <string name="interest_more">Interested,Discover &amp; More</string>
+    <string name="KnowUs">Know Us</string>
+    <string name="getOut">Get me out of Here</string>
+    <string name="inbox">Inbox</string>
+    <string name="friends">Friends</string>
+    <string name="forget">Forget password</string>
+    <string name="save">Save</string>
+    <string name="ChangeyourStatus">Change your Status</string>
+    <string name="MyInterest">My Interest</string>
+    <string name="Whatisonyourmind">What is on your mind?</string>
+    <string name="ChangePassword">Change Password</string>
+    <string name="EditProfile">Edit Profile</string>
+    <string name="OldPassword">Old Password</string>
+    <string name="NewPassword">New Password</string>
+    <string name="ConfirmPassword">Confirm Password</string>
+    <string name="Profile">Profile</string>
+    <string name="about_us">About Us</string>
+    <string name="googleId">AIzaSyAO7ssPmHrAdgNUYdrq9atxwbuPmwjFkGE</string>
+    <!-- AdMob ad unit IDs -->
+    <string name="banner_home_footer">ca-app-pub-3120536913205473/5975042732</string>
+    <string name="interstitial_full_screen">ca-app-pub-3120536913205473/3021576335</string>
+    <string name="insertEmail">Email address is empty!</string>
+    <string name="insertValidEmail">Invalid email address!</string>
+    <string name="insertPassword">Password is empty!</string>
+    <string name="passwordMust">Password must be six character</string>
+    <string name="fullName">Full name is empty!</string>
+    <string name="NoInternet">No Internet access!</string>
+    <string name="insertOLdPassword">Old password is empty!</string>
+    <string name="insertNewPassword">Enter new password!</string>
+    <string name="newPasswordMust">Password minimum six character required!</string>
+    <string name="insertConfirmPassword">Enter confirm password!</string>
+    <string name="newPasswordAndConfirmPassword">New password and confirm password not matched!</string>
+    <string name="SentOwnLocation">Share your location</string>
+    <string name="RequestLocation">Request location</string>
+    <string name="SharePicure">Share Picture</string>
+    <string name="ShareEmoji">Share Emoji</string>
+    <string name="Share">Share</string>
+    <string name="SpreadtheLove">Spread the Love</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="register">REGISTER</string>
+    <string name="twitter">TWITTER</string>
+    <string name="facebook">FACEBOOK</string>
+    <string name="verify">VERIFY</string>
+    <string name="cvv_number">CVV Number</string>
+    <string name="card_number">Card Number</string>
+    <string name="card_holder_name">Card Holder Name</string>
+    <string name="active_order">Active Order</string>
+    <string name="category">Category</string>
+    <string name="date">DATE</string>
+    <string name="description">DESCRIPTION</string>
+    <string name="job_duration">JOB DURATION</string>
+    <string name="start_time">START TIME</string>
+    <string name="location">LOCATION</string>
+    <string name="congratulation_nwork_is_done">CONGRATULATION!!!\nWORK IS DONE</string>
+    <string name="action_settings">Settings</string>
+    <string name="facebook_app_id">956057437789334</string>
+
+    <string name="drawer_open">Drawer Open</string>
+    <string name="drawer_close">Drawer Close</string>
+    <string name="Loading">Caricamento&#8230;</string>
+    <string name="Tu.sei.Kimika.Il.tuo.corpo"><![CDATA[<b>Tu sei Kimika,</b><br><br>Il tuo corpo è <b>KIMIKA</b>, il cibo che mangi, i vestiti che indossi, ogni cosa è semplicemente <b>KIMIKA</b>. Avvicinandoti all’essenza di te stesso, fino al punto più piccolo possibile, raggiungerai la parte più piccola di te: I’A-TOMO che significa l’indivisibile. Dunque scava nel profondo di te!<br>Indaga dentro di te! <b>Studia te stesso!</b><br>E trova <b>CHI SEI!</b> Se, con sincerità e purezza, seguirai tutta la “strada” allora incontrerai <b>il tuo elemento</b>.]]></string>
+    <string name="Discover.your.element">Discover your element</string>
+    <string name="Gas.Rari">Gas Rari</string>
+    <string name="Metalli">Metalli</string>
+    <string name="Non.Metalli">Non Metalli</string>
+    <string name="Semimetalli">Semimetalli</string>
+    <string name="Copyright.2015.KIMIK.All.rights.reserved">Copyright 2015 \u00a9 KIMIK All rights reserved</string>
+
+    <string name="Cose.KIMIK">Cos\'è KIMIK?</string>
+    <string name="Contatti">Contatti</string>
+    <string name="Seguisu">Segui su</string>
+    <string name="Logout">Logout</string>
+    <string name="Accedi">Accedi</string>
+    <string name="Nome">Nome</string>
+    <string name="Cognome">Cognome</string>
+    <string name="Email">Email</string>
+    <string name="Messaggio">Messaggio</string>
+    <string name="Inviaci.la.tua.richiesta">Inviaci la tua richiesta</string>
+    <string name="Inviaci.la.richiesta">Inviaci la richiesta</string>
+    <string name="Precedente">Precedente</string>
+    <string name="Prossimo">Prossimo</string>
+    <string name="Prosegui">Prosegui</string>
+    <string name="Indietro">Indietro</string>
+    <string name="Ricomincia">Ricomincia</string>
+    <string name="Login">Login</string>
+    <string name="Password">Password</string>
+    <string name="Registrati">Registrati</string>
+    <string name="Ok">Ok</string>
+    <string name="Invia">Invia</string>
+    <string name="Risultato"><u>Risultato</u></string>
+    <string name="Login.con.Facebook">Login con Facebook</string>
+    <string name="Hai.perso.la.password">Hai perso la <u>password?</u></string>
+    <string name="Inserisci.la.tua.email">Inserisci la tua email</string>
+    <string name="Richiedi.la.password.associata.al.tuo.indirizzo.email">Richiedi la password associata al tuo indirizzo email</string>
+    <string name="Something.wrong">Qualcosa non va!</string>
+    <string name="Email.required">Email richiesto.</string>
+    <string name="Password.required">Password richiesto.</string>
+    <string name="Dillo.ai.tuoiamici">Dillo ai tuoi amici</string>
+    <string name="Condividi.su.Facebook">Condividi su Facebook</string>
+    <string name="Dillo.ai.tui.amici.e.scopri.di.quale.elemento.sono.composti">Dillo ai tui amici e scopri di quale elemento sono composti</string>
+    <string name="Richiedi.scheda.elemento">Richiedi scheda elemento</string>
+    <string name="Vuoi.saperne.di.piu.su">Vuoi saperne di più su</string>
+    <string name="Sono">Sono</string>
+    <string name="AppartieniAlGruppoDei">Appartieni al gruppo dei</string>
+    <string name="Vanno.daccordo.con">Vanno d\'accordo\ncon</string>
+    <string name="Persone.che.non.ti.sono">Persone che non\nti sono affini</string>
+    <string name="I.primi.sette.passi.honno.segnato">I primi sette passi honno segnato la tua strada da qui non torni più indietro se sei sicuro delle tue risposte prosegui</string>
+    <string name="La.strada.finisce.qua">La strada finisce qua</string>
+    <string name="Tu.sei.sicuro.delle.rispose">Tu sei&#8230;\n&#8230;sicuro delle risposte?</string>
+    <string name="tu.sei">tu sei</string>
+    <string name="Inviata.con.successo">Inviata con successo.</string>
+
+    <string name="text.gas.gari"><![CDATA[I gas rari vengono anche detti gas nobili in virtù del fatto che essi evitano di reagire con gli elementi comuni, esibendo un atteggiamento attribuito normalmente alla nobiltà.<br>
+    Sono dei gas pressoché inerti e occupano la colonna più a destra della tavola periodica.Sono costituiti da atomi con gusci elettronici completi.<br>I gas rari sono tutti gas monoatomici, in natura si trovano quindi solo atomi singoli di questi elementi chimici.<br>
+    Sono difficili da rendere liquidi, sono presenti nell’atmosfera, il più comune è l’Argon.Sono inodori, incolori e insapori e non infiammabili in condizioni standard.
+    Un tempo si credeva che i gas rari non potessero combinarsi con altri elementi per fare composti, tuttavia anche se sono estremamente stabili si è poi scoperto che alcuni di essi riescono a creare legami con altri elementi.<br><br><br>
+    Ti riconosci in questa descrizione?]]></string>
+
+        <string name="text.metali"><![CDATA[I metalli presentano un aspetto lucente e sono buoni conduttori di elettrici e di calore.
+    Sono tutti monoatomici, in natura si trovano quindi solo atomi singoli di questi elementi chimici.<br>
+    I metalli sono situati a sinistra della tavola periodica e sono gli elementi più numerosi; a temperatura ambiente e pressione ambiente sono tutti solidi tranne il mercurio, che è un liquido.<br>
+    Sono duttili, cioè si possono ridurre in fili sottili, e malleabili, cioè si possono ridurre in lamine.<br>
+    La loro tendenza a cedere facilmente elettroni fa si che essi creino legami particolari, detti appunto metallici.<br><br><br>
+     Ti riconosci in questa descrizione?]]></string>
+        <string name="text.non.metali"><![CDATA[I non metalli sono elementi chimici che presentano un aspetto opaco e sono cattivi conduttori di elettrici e di calore. <br>
+    Sono situati a destra della tavola periodica e presentano caratteristiche fisiche opposte a quelle dei metalli.<br>
+    A temperatura ambiente e pressione ambiente esistono tutti gli stati di aggregazione della materia: dallo stato gassoso allo stato liquido allo stato solido.
+    Sono fragili e solitamente hanno bassi punti di fusione.<br>
+    La loro reattività chimica, cioè la capacità di formare legami, dipende dalla elevata tendenza che hanno a prendere elettroni dagli altri elementi.<br><br><br>
+    Ti riconosci in questa descrizione?]]></string>
+        <string name="text.semi.metali"><![CDATA[I semimetalli presentano caratteristiche chimiche tipiche dei metalli o dei non metalli a seconda che si combinino con elementi a spiccato carattere relativamente non metallico o metallico.<br>
+    Hanno pertanto carattere anfotero, cioè alcuni si comportano da metalli e in altri casi si comportano da non metalli.<br>
+    Nella tavola periodica si trovano a cavallo tra i metalli e i non metalli lungo una linea immaginaria che unisce il Boro con il Polonio.<br><br><br>Ti riconosci in questa descrizione?]]></string>
+
+    <string name="text.cose.kimik"><![CDATA[<b>Cosa è Kimik?</b><br><br>Si possono fondere insieme materie molto diverse?<br>Qualcosa accomuna gli aspetti scientifici con quelli umanistici?<br>E’credibile l’affermazione di Albert Einstein “I’immaginazione è più importante della conoscenza”?<br><br>Kimik lo fa! Chimica ci crede!<br><br>Il principio su cui tutto il mondo Kimik si regge è la chimica, le sui leggi e la struttura della tavola degli elementi di Mendeleev.<br><br>L’ordine degli elementi in questa tavola, rigorosamente scientifico, è la chiave che apre le porte di Kimik.<br><br>L’immaninazione poi crea il ponte tra scienza e psicologia e lo fa vedendo in ogni elemento chimico un piccolo prototipo di essere umano, cogliendo in ogni caratteristica chimica un aspetto caratteriale umano, in ogni comportamento chimico un modo di essere umano.]]></string>
+
+</resources>

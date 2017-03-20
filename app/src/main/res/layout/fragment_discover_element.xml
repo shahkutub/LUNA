@@ -1,0 +1,144 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/bottomLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:gravity="center"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+
+            <TextView
+                android:textAllCaps="true"
+                android:id="@+id/textViewPrevious"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:background="#114C89"
+                android:drawableLeft="@drawable/previous"
+                android:drawablePadding="5dp"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="@string/Precedente"
+                android:textColor="@color/white"
+                android:textSize="16sp" />
+
+            <TextView
+                android:textAllCaps="true"
+                android:id="@+id/textViewNext"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:background="#114C89"
+                android:drawablePadding="5dp"
+                android:drawableRight="@drawable/next"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="@string/Prossimo"
+                android:textColor="@color/white"
+                android:textSize="18sp" />
+
+        </LinearLayout>
+
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/bottomLayout"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/questionMiddleLayout"
+            android:layout_margin="5dp"
+            android:gravity="center"
+            android:background="@drawable/discover_element_bg"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textViewQuestionNo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:maxLines="5"
+                android:padding="5dp"
+                android:text="QUESTION 01"
+                android:textColor="@color/color_left"
+                android:textSize="18sp"/>
+
+            <TextView
+                android:id="@+id/textViewQuestion"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="Some text are using. Some text are using. Some text are using. Some text are using. Some text are using. Some text are using. Some text are using. Some text are useing. Some text are using. Some text are using. Some text are using. Some text are using. Some text are using."
+                android:textColor="@color/color_left" />
+
+
+            <RadioGroup
+                android:id="@+id/radioQuestion"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <RadioButton
+                    android:background="@android:color/transparent"
+                    android:id="@+id/radioButtonAnswer1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Answer 1"
+                    android:textColor="@color/color_left" />
+
+                <RadioButton
+                    android:background="@android:color/transparent"
+                    android:textColor="@color/color_left"
+                    android:id="@+id/radioButtonAnswer2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Answer 2" />
+
+                <RadioButton
+                    android:background="@android:color/transparent"
+                    android:textColor="@color/color_left"
+                    android:id="@+id/radioButtonAnswer3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Answer 3" />
+
+                <RadioButton
+                    android:background="@android:color/transparent"
+                    android:textColor="@color/color_left"
+                    android:id="@+id/radioButtonAnswer4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Answer 4" />
+
+            </RadioGroup>
+
+        </LinearLayout>
+
+
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>

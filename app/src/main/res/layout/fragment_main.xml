@@ -1,0 +1,112 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainFragment">
+
+    <TextView
+        android:textSize="16sp"
+        android:gravity="center"
+        android:textColor="@color/color1"
+        android:id="@+id/textViewTuSeiKimika"
+        android:layout_margin="10dp"
+        android:text="@string/Tu.sei.Kimika.Il.tuo.corpo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+
+    <LinearLayout
+        android:id="@+id/linearLayoutOptions"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:textSize="12sp"
+            android:id="@+id/textViewGasRari"
+            android:layout_width="0dp"
+            android:layout_height="68dp"
+            android:layout_weight="0.25"
+            android:background="@color/color_left"
+            android:gravity="right"
+            android:paddingRight="5dp"
+            android:paddingTop="10dp"
+            android:text="@string/Gas.Rari"
+            android:textColor="@android:color/white" />
+
+        <TextView
+            android:textSize="12sp"
+            android:id="@+id/textViewMetali"
+            android:layout_width="0dp"
+            android:layout_height="68dp"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="0.25"
+            android:background="@color/color_left2"
+            android:gravity="right"
+            android:paddingRight="5dp"
+            android:paddingTop="10dp"
+            android:text="@string/Metalli"
+            android:textColor="@android:color/white" />
+
+
+        <TextView
+            android:id="@+id/textViewNonMetali"
+            android:layout_width="0dp"
+            android:layout_height="68dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_weight="0.25"
+            android:background="@color/color_left3"
+            android:gravity="right"
+            android:paddingRight="5dp"
+            android:paddingLeft="5dp"
+            android:paddingTop="10dp"
+
+            android:textSize="12sp"
+            android:text="@string/Non.Metalli"
+            android:textColor="@android:color/white" />
+
+
+        <TextView
+            android:id="@+id/textViewSemimetalli"
+            android:layout_width="0dp"
+            android:layout_height="68dp"
+            android:layout_weight="0.25"
+            android:background="@color/color_left4"
+            android:gravity="right"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:paddingTop="10dp"
+            android:textSize="12sp"
+            android:text="@string/Semimetalli"
+            android:textColor="@android:color/white" />
+
+    </LinearLayout>
+
+
+
+    <TextView
+        android:textAllCaps="false"
+        android:layout_centerHorizontal="true"
+        android:layout_above="@+id/linearLayoutOptions"
+        android:id="@+id/textViewDiscoverYourElement"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/Discover.your.element"
+        android:textColor="@color/color_left" />
+
+    <ImageView
+        android:layout_centerHorizontal="true"
+        android:layout_above="@+id/textViewDiscoverYourElement"
+        android:id="@+id/imageViewDiscoverYourElement"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/icona_kimik" />
+
+</RelativeLayout>
